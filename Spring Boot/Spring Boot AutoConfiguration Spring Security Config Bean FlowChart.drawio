@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T09:48:58.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.9.6" etag="dlA6v2wEAze3uFDSV-aw" type="github"><diagram id="Bibm5eUqETPSz6rYaeGe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-16T09:49:16.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2VlZ32RB7cdihVIAdBrZ" version="15.9.6" type="github">
+  <diagram id="Bibm5eUqETPSz6rYaeGe" name="第 1 页">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XVZ6SoVODnuLmLBOsebA-3" target="XVZ6SoVODnuLmLBOsebA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-3" value="spring-boot-autoconfiguration中的spring.factories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XVZ6SoVODnuLmLBOsebA-6" target="XVZ6SoVODnuLmLBOsebA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XVZ6SoVODnuLmLBOsebA-6" target="XVZ6SoVODnuLmLBOsebA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-6" value="@SecurityAutoConfiguration Import ：SpringBootWebSecurityConfiguration、&lt;br&gt;WebSecurityEnablerConfiguration、&lt;br&gt;SecurityDataConfiguration&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22SecurityAutoConfiguration%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22220%22%20y%3D%22200%22%20width%3D%22220%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;WebSecurityEnablerConfiguration&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XVZ6SoVODnuLmLBOsebA-8" target="XVZ6SoVODnuLmLBOsebA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-8" value="@EnableWebSecurity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-9" value="&lt;div&gt;WebSecurityEnablerConfiguration 目的仅仅就是在某些&lt;/div&gt;&lt;div&gt;条件下激活 @EnableWebSecurity&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XVZ6SoVODnuLmLBOsebA-10" value="&lt;div&gt;@Enable* 这类注解都是带配置导入的注解。通过导入一些配置来启用一些特定功能。&lt;/div&gt;&lt;div&gt;@EnableWebSecurity 导入了 WebSecurityConfiguration 、 SpringWebMvcImportSelector 、 OAuth2ImportSelector 以及启用了 @EnableGlobalAuthentication 注解。&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="250" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
